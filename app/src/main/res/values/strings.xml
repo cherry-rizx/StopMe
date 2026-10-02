@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">StopMe</string>
+
+    <!-- Splash -->
+    <string name="start_now">Start Now</string>
+
+    <!-- Registrasi -->
+    <string name="welcome_title">Selamat Datang di StopMe</string>
+    <string name="welcome_subtitle">Jangan Kelewatan Halte Tujuan Lagi</string>
+    <string name="continue_with_google">Continue With Google</string>
+    <string name="continue_with_email">Continue With Email</string>
+    <string name="already_have_account">Sudah Punya Akun? Masuk</string>
+    <string name="dont_have_account">Belum Punya Akun? Daftar</string>
+    <string name="sign_in">Masuk</string>
+    <string name="sign_up">Daftar</string>
+    <string name="email_label">Email</string>
+    <string name="password_label">Kata Sandi</string>
+    <string name="cancel">Batal</string>
+    <string name="error_auth_failed">Autentikasi gagal. Silakan periksa kembali email &amp; kata sandi.</string>
+    <string name="error_empty_credentials">Email dan kata sandi tidak boleh kosong.</string>
+
+    <!-- Izin Aplikasi -->
+    <string name="permission_title">Izin Aplikasi</string>
+    <string name="permission_subtitle">Agar Alarm Berfungsi Maksimal Saat Tidur</string>
+    <string name="permission_location_title">Akses Lokasi (GPS)</string>
+    <string name="permission_location_desc">Melacak posisi real-time hingga halte tujuan</string>
+    <string name="permission_notification_title">Notifikasi &amp; Suara</string>
+    <string name="permission_notification_desc">Membangunkan Anda saat mendekati tujuan</string>
+    <string name="permission_battery_title">Abaikan Optimasi Baterai</string>
+    <string name="permission_battery_desc">Agar alarm tetap aktif saat layar HP mati</string>
+    <string name="permission_status_granted">Diizinkan</string>
+    <string name="permission_status_denied">Belum Diizinkan</string>
+    <string name="permission_bg_location_rationale">Aplikasi membutuhkan izin lokasi di latar belakang (Allow all the time) agar alarm berbunyi saat Anda tidur dengan layar terkunci.</string>
+    <string name="allow">Izinkan</string>
+
+    <!-- Home -->
+    <string name="search_service_placeholder">Cari Layanan</string>
+    <string name="choose_transport_title">Pilih Layanan Transportasi Umum\nyang kamu gunakan</string>
+    <string name="service_transjakarta">Transjakarta</string>
+    <string name="service_jaklingko">Jaklingko</string>
+    <string name="service_krl">KAI Commuter</string>
+    <string name="service_mrt">MRT</string>
+    <string name="service_lrt">LRT</string>
+
+    <!-- Isi Perjalanan -->
+    <string name="search_departure_bus">Cari Halte Keberangkatan</string>
+    <string name="search_departure_train">Cari Stasiun Keberangkatan</string>
+    <string name="search_destination_bus">Cari Halte Tujuan</string>
+    <string name="search_destination_train">Cari Stasiun Tujuan</string>
+    <string name="section_stops_bus">Halte</string>
+    <string name="section_stops_train">Stasiun</string>
+    <string name="departure_label">Keberangkatan</string>
+    <string name="destination_label">Tujuan</string>
+    <string name="no_direct_route">Tidak ada rute langsung antara kedua halte ini</string>
+    <string name="choose_route_sheet_title">Pilih Rute Perjalanan</string>
+    <string name="alarm_radius_title_bus">Radius Alarm Sebelum Halte</string>
+    <string name="alarm_radius_title_train">Radius Alarm Sebelum Stasiun</string>
+    <string name="or_when_remaining">Atau saat tersisa</string>
+    <string name="minutes_suffix">menit</string>
+    <string name="start_trip">Mulai Perjalanan</string>
+    <string name="loading_transit_data">Memuat data rute dan halte...</string>
+
+    <!-- Aktivitas -->
+    <string name="no_active_trip">Belum ada perjalanan aktif</string>
+    <string name="no_active_trip_desc">Pilih layanan dan atur tujuan di halaman Home untuk memulai pemantauan perjalanan.</string>
+    <string name="heading_to">Menuju %1$s</string>
+    <string name="remaining_distance">Sisa Jarak</string>
+    <string name="eta_label">ETA</string>
+    <string name="next_stop_label_bus">Halte Berikutnya</string>
+    <string name="next_stop_label_train">Stasiun Berikutnya</string>
+    <string name="active_alarm_radius">Radius Alarm Aktif: %1$s · atau %2$d menit</string>
+    <string name="turn_off_alarm">Matikan Alarm</string>
+    <string name="offline_mode_badge">Mode offline</string>
+    <string name="gps_active_badge">GPS Aktif</string>
+
+    <!-- Alarm Screen -->
+    <string name="alarm_title_format">SIAP-SIAP! %1$s SUDAH DEKAT</string>
+    <string name="arriving_in_format">Tiba Dalam: %1$s</string>
+    <string name="arriving_in_minutes_format">Tiba Dalam: %1$d menit</string>
+    <string name="slide_to_dismiss_instruction">GESER UNTUK MATIKAN ALARM</string>
+    <string name="slide_to_dismiss_pill">Slide to Dismiss</string>
+
+    <!-- Profil -->
+    <string name="settings_title">Pengaturan</string>
+    <string name="settings_desc">Matikan atau nyalakan akses di sini. Untuk mencabut izin, StopMe akan membuka Pengaturan HP.</string>
+    <string name="profile_title">Profil Pengguna</string>
+    <string name="sign_out">Keluar</string>
+    <string name="sign_out_confirm">Apakah Anda yakin ingin keluar dari akun?</string>
+    <string name="version_label">Versi 1.0 (Native)</string>
+
+    <!-- Notifikasi Service -->
+    <string name="notif_channel_name">Pemantau Perjalanan StopMe</string>
+    <string name="notif_channel_desc">Menampilkan info perjalanan dan lokasi real-time</string>
+    <string name="notif_alarm_channel_name">Alarm Tujuan StopMe</string>
+    <string name="notif_alarm_channel_desc">Peringatan saat Anda mendekati halte tujuan</string>
+    <string name="notif_content_format">Menuju %1$s · Sisa %2$s · ETA %3$s</string>
+    <string name="action_stop">Hentikan</string>
+    <string name="notif_heads_up_title">Sudah Dekat Tujuan!</string>
+    <string name="notif_heads_up_text">Tiba di %1$s dalam %2$s. Ketuk untuk membuka.</string>
+
+    <!-- Bottom Nav -->
+    <string name="tab_home">Home</string>
+    <string name="tab_activities">Aktivitas</string>
+    <string name="tab_profile">Profil</string>
+</resources>
